@@ -9,6 +9,7 @@ This tool is base on `ImageJ` and thus requires a JAVA environment to run.
 ### Installation
 
 - Download `ImageJ` from [here](https://imagej.nih.gov/ij/download.html)
+- Unzip the content of the archive to your program folder
 - Append the content of `ClickCoordinatesTool.txt` to `ImageJ\macros\StartUpMacros.txt`
 - Run `ImageJ` and enjoy!
 
