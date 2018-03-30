@@ -16,9 +16,9 @@
      getCursorLoc(x, y, z, flags);
      if (drawPoints || drawNumbers) setupUndo();
      if (drawPoints) {
-        setLineWidth(1);
+        setLineWidth(3);
         setColor(0,255,0);
-        tickLength = 3;	// the "radius" of the crosses marking the points
+        tickLength = 9;	// the "radius" of the crosses marking the points
         drawLine(maxOf(x-tickLength,0),y, minOf(x+tickLength,getWidth()-1), y);
         drawLine(x,maxOf(y-tickLength,0), x, minOf(y+tickLength,getHeight()-1));
      }
